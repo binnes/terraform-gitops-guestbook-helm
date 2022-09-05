@@ -14,14 +14,14 @@ locals {
     "service.type" = "ClusterIP"
     "service.port" = "80"
     "ingress.enabled" = "false"
-    "ingress.annotations" = ""
+    #"ingress.annotations" = ""
     "ingress.path" = "/"
     "ingress.hosts" = ["chart-example.local"]
     "ingress.tls" = []
-    "resources" = ""
-    "nodeSelector" = ""
-    "tolerations" = ""
-    "affinity" = ""
+    #"resources" = ""
+    #"nodeSelector" = ""
+    #"tolerations" = ""
+    #"affinity" = ""
     }
   }
   layer = "applications"
