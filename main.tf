@@ -19,7 +19,7 @@ locals {
     "ingress.hosts" = ["chart-example.local"]
     "ingress.tls" = []
     "resources" = ""
-    "nodeSelector" = "null"
+    "nodeSelector" = ""
     "tolerations" = ""
     "affinity" = ""
     }
