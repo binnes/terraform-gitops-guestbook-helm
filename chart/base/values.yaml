@@ -35,6 +35,7 @@ base:
 
   ingress:
     enabled: false
+    host: ks-guestbook-demo.guestbook.svc.cluster.local
 
   env:
     - name: IMAGE_NAME
