@@ -7,7 +7,7 @@ base:
 
   image:
     repository: quay.io/binnes/ks-guestbook-demo
-    port: 3000
+    port: 80
     probePath: /
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
