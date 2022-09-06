@@ -11,7 +11,7 @@ base:
     probePath: /
     # Overrides the image tag whose default is the chart appVersion.
     tag: "0.1.0"
-    pullPolicy: always
+    pullPolicy: Always
 
   autoscaling:
     enabled: false
