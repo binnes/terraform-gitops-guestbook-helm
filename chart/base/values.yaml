@@ -10,7 +10,8 @@ base:
     port: 80
     probePath: /
     # Overrides the image tag whose default is the chart appVersion.
-    tag: ""
+    tag: "0.1.0"
+    pullPolicy: always
 
   autoscaling:
     enabled: false
