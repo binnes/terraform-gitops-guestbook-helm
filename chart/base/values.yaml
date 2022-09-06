@@ -6,7 +6,7 @@ base:
   runtime: nodejs
 
   image:
-    repository: bitnami/nginx
+    repository: quay.io/binnes/ks-guestbook-demo
     port: 3000
     probePath: /
     # Overrides the image tag whose default is the chart appVersion.
