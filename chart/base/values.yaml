@@ -11,7 +11,7 @@ base:
     port: 8080
     probePath: /
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "1.23.1"
+    tag: 1.23.1
 
   autoscaling:
     enabled: false
