@@ -6,12 +6,12 @@ base:
   runtime: nodejs
 
   image:
-    repository: quay.io/binnes/ks-guestbook-demo
-    port: 80
+    # 
+    repository: nginx
+    port: 8080
     probePath: /
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "0.1.0"
-    pullPolicy: Always
+    tag: "1.23.1"
 
   autoscaling:
     enabled: false
@@ -58,3 +58,7 @@ base:
     - secretRef:
         name: jaeger-access
         optional: true
+
+  configMap:
+    - NGINX_HOST=ks-guestbook-demo.guestbook.svc.cluster.local
+    - NGINX_PORT=8080
