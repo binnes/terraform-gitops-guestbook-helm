@@ -61,4 +61,4 @@ base:
 
   configMap:
     NGINX_HOST: ks-guestbook-demo.guestbook.svc.cluster.local
-    NGINX_PORT: 8080
+    NGINX_PORT: '8080'
