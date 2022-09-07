@@ -31,6 +31,10 @@ base:
     #   cpu: 100m
     #   memory: 128Mi
 
+  service:
+    type: ClusterIP
+    port: 8080
+    
   route:
     enabled: true
 
